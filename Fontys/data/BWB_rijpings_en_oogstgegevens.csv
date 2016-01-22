@@ -1,0 +1,225 @@
+#
+# Oogst en bloei/verkleuringsgegevens van de druivenrassen
+#    aangeplant bij de Brabantse Wijnbouwers (2006-2015).
+#
+# BHE
+# laatst bijgewerkt op: 22/01/2016
+#
+druivenras~wijngaard~oe~zuur~pH~oogst~bloei~rijping
+Johanniter~De Molenbeek~82~9,2~3,46~12-10-2015~~
+Johanniter~De Winhof~86~9,5~~02-10-2015~~
+Johanniter~De Locht~86~10,6~3,11~17-10-2015~~
+Johanniter~Frank's Domein~82~8,6~2,95~10-10-2014~07-06-2014~
+Johanniter~Kornsche Wijngaard~85~9~3,4~4-10-2014~~
+Johanniter~Hof van Eynde~65~7,6~3,16~11-10-2014~~
+Johanniter~De Vijfhoek~81~8~~6-10-2014~~
+Johanniter~De Molenbeek~73~9,1~3,05~18-10-2014~~
+Johanniter~Lennisheuvel~84~7,5~3,20~11-10-2014~~
+Johanniter~Lamershof~80~8,6~~09-10-2014~~
+Johanniter~Kommerdijk~81~8,3~~19-10-2014~~
+Johanniter~Clos du Rooster~~~~24-10-2014~~
+Johanniter~De Molenhoek~74~14,5~2,8~18-10-2013~~
+Johanniter~Frank's Domein~77~12,5~2,9~01-11-2013~05-07-2013~30-08-2013
+Johanniter~De Achthoeven~64~15,2~~26-10-2013~06-07-2013~10-08-2013
+Johanniter~De Vijfhoek~73~11,2~2,91~12-10-2013~29-06-2014~
+Johanniter~Koningbosch~82~9,5~~24-10-2013~~
+Johanniter~St. Beer~75~12~2,9~31-10-2013~~
+Johanniter~Korevaar~75~12~2,9~31-10-2013~~
+Johanniter~Kleine Lei~75~12~2,9~31-10-2013~~
+Johanniter~Lennisheuvel~92~9,8~3,14~20-10-2013~~
+Johanniter~Kornsche Wijngaard~83~11~~26-10-2013~~
+Johanniter~Bilderhof~80~11~~19-10-2013~~
+Johanniter~W. Bilderhof(Zeeland)~80~12,5~~25-10-2013~~
+Johanniter~De Druiventuin~84~11,5~3,13~22-10-2012~~
+Johanniter~De Middelwaert~77~~~30-09-2012~~
+Johanniter~St. Beer~75~10~3,2~24-10-2012~~
+Johanniter~Lennisheuvel~92~10~3,09~11-10-2012~~
+Johanniter~De Achthoeven~82~~~28-10-2012~26-06-2012~
+Johanniter~De Oorsprong~80~11,5~~06-10-2012~~
+Johanniter~Lamershof~74~10,5~~15-10-2012~~
+Johanniter~St. Beer~77~8,7~3,18~03-10-2011~~
+Johanniter~De Achthoeven~64~10,3~3,07~02-10-2011~02-06-2011~
+Johanniter~De Vijfhoek~73~9~2,92~03-10-2011~~
+Johanniter~Peter51~72~7~3,02~26-09-2011~~
+Johanniter~St. Beer~71~12~3,05~15-10-2010~~
+Johanniter~De Vijfhoek~75~11,4~~04-10-2010~~
+Johanniter~St. Beer~78~8,9~3,14~05-10-2009~~
+Johanniter~St. Beer~70~9,4~3,23~04-10-2008~~
+Johanniter~St. Beer~70~7,5~3,3~17-09-2007~~
+Johanniter~St. Beer~75~8~3,46~02-10-2006~~
+Solaris~Hof van Eynde~87~6,7~3,6~09-09-2014~~
+Solaris~Frank's Domein~84~8,6~3,02~09-09-2014~~19-07-2014
+Solaris~Kornsche Wijngaard~95~8,0~3,2~15-09-2014~~
+Solaris~Heyd~90~8,0~~14-09-2014~~
+Solaris~Noach's WG~95~~~14-09-2014~~
+Solaris~De Achthoeven~92,5~9,1~~19-09-2014~06-06-2014~17-07-2014s
+Solaris~Frank's Domein~79~8,5~2,95~28-09-2013~27-06-2013~08-08-2013
+Solaris~De Achthoeven~88~9~3,15~03-10-2013~21-06-2013~10-08-2013
+Solaris~Hof van Eynde~85~8,5~3~21-09-2013~~
+Solaris~Koningbosch~85~9~~30-09-2013~~
+Solaris~te Kloetinge~90~9~~05-09-2013~~
+Solaris~Kornsche Wijngaard~80~~~21-09-2013~~
+Solaris~De Heerlijckheijt~50~15~~15-10-2013~~
+Solaris~De Druiventuin~95~8,2~2,89~04-10-2012~~
+Solaris~Koningbosch~100~~~21-09-2012~~
+Solaris~De Achthoeven~~~~~20-06-2012~06-08-2012
+Solaris~De Achthoeven~81~7,2~~29-08-2011~24-05-2011~14-07-2011
+Solaris~Votu~93~~~31-08-2011~~
+Solaris~Hof van Baarle~88~~~27-08-2011~~
+Solaris~De Achthoeven~82~8~2,88~13-09-2010~15-06-2010~31-07-2010
+Solaris~Hof van Baarle~92~~~25-09-2010~~
+Solaris~Heyd~100~~~20-09-2010~~
+Solaris~v.Gestel~75~~~01-10-2010~~
+Solaris~De Achthoeven~100~5,5~~11-09-2009~~
+Solaris~Hof van Baarle~102~~2,8~07-09-2009~~
+Solaris~Heyd~77~8,8~~14-08-2007~~
+Solaris~Heyd~80~10,8~~26-08-2008~~
+Solaris~Heyd~100~8,0~~12-09-2009~~
+Solaris~Heyd~90~7,0~~19-09-2010~~
+Solaris~Heyd~82~8,0~~20-09-2013~~
+Solaris~Heyd~90~8,0~~14-09-2013~~
+Solaris~Noach~95~~~14-09-2014~~
+Cabernet Cantor~Baron~84~7,8~3,24~30-10-2013~~
+Cabernet Cantor~Hemelse Vrede~84~7,8~3,24~30-10-2013~~
+Cabernet Cantor~Grimmeltshof~58~6,5~3,45~16-10-2013~04-07-2013~
+Cabernet Cantor~Hemelse Vrede~66~~~08-10-2012~~
+Cabernet Cortis~Achter de Route~91~9,0~~29-10-2014~~
+Cabernet Cortis~Kornsche Wijngaard~110~10,0~3,4~04-10-2014~~
+Cabernet Cortis~De Heerlijkheid~94~~~26-09-2014~~
+Cabernet Cortis~van Ramshorst~82~~~18-10-2013~02-07-2013~18-08-2013
+Cabernet Cortis~Koningbosch~80~9~~16-10-2013~~
+Cabernet Cortis~Kleine Lei~84~7,8~3,24~30-10-2013~~
+Cabernet Cortis~Camp d'Or~82~~~12-10-2013~30-06-2013~14-08-2013
+Cabernet Cortis~Kornsche Wijngaard~90~9,5~~26-10-2013~~
+Cabernet Cortis~Torhout~90~9,4~3,25~09-10-2013~~
+Cabernet Cortis~Grimmeltshof~70~8,5~~18-10-2013~01-07-2013~
+Cabernet Cortis~Bilderhof~81~9,5~~09-10-2013~~
+Cabernet Cortis~de Druiventuin~82,5~10~2,56~15-10-2012~~
+Cabernet Cortis~Hof van Baarle~87~~~26-09-2009~~
+Cabernet Cortis~Hof van Baarle~75~~~02-10-2010~~
+Cabernet Cortis~Hof van Baarle~80~~~17-09-2011~~
+Cabernet Cortis~Hof van Baarle~95~~~07-10-2012~~
+Cabernet Cortis~Hof van Baarle~80~~~12-10-2013~~
+Rondo~De Achthoeven~73~7,2~~04-10-2014~06-06-2014~19-07-2014
+Rondo~Hof van Eynde~89~8,7~3,72~24-09-2014~~
+Rondo~Frank's Domein~80~10,5~3,12~27-09-2014~~
+Rondo~St. Beer~75~7,5~3,25~04-10-2014~~
+Rondo~Locht~80~11,8~3,28~03-10-2014~~
+Rondo~Nooren~75~9~~20-09-2014~~
+Rondo~Clos Sabina~80~~~17-09-2014~~
+Rondo~Locht~85~10~3,22~22-10-2013~~
+Rondo~De Molenhoek~80~10,4~3,4~18-10-2013~~
+Rondo~De Achthoeven~64~9,4~3,3~06-10-2013~24-06-2013~06-08-2013
+Rondo~Hof van Eynde~65~9,8~2,9~05-10-2013~~
+Rondo~St. Beer~73~7,5~3,18~18-10-2013~~
+Rondo~Korevaar~73~7,5~3,18~18-10-2013~~
+Rondo~Frank's Domein~78~10,5~3,02~05-10-2013~26-06-2013~09-08-2013
+Rondo~Camp d'Or~81~~~12-10-2013~22-06-2013~05-08-2013
+Rondo~De Molenbeek~79,5~10,5~3,4~18-10-2013~~
+Rondo~Kloetinge~78~10~~11-10-2013~~
+Rondo~Kornsche Wijngaard~77~7,5~~21-10-2013~~
+Rondo~Torhout~76~9,8~3,34~09-10-2013~~
+Rondo~De Heerlijckheijt~50~15~~03-11-2013~~
+Rondo~Bilderhof~72~11~~04-10-2013~~
+Rondo~St. Beer~76~8~3,1~08-10-2012~~
+Rondo~Locht~84~9,4~3,17~02-10-2012~~
+Rondo~De Achthoeven~77~8,4~3,22~08-10-2012~18-06-2012~06-08-2012
+Rondo~Bilderhof~60~10,5~~22-09-2012~~
+Rondo~Kloetinge~80~6,6~~13-10-2012~~
+Rondo~St. Beer~80~5,9~3,36~26-09-2011~~
+Rondo~De Achthoeven~86~7,4~3,28~26-09-2011~28-05-2011~14-07-2011
+Rondo~Camp d'Or~84~7,3~3,27~24-09-2011~~
+Rondo~Locht~80~9~~19-09-2011~~
+Rondo~St. Beer~60~10,2~3,1~01-10-2010~~
+Rondo~De Achthoeven~60,5~10,5~3,28~01-10-2010~16-06-2010~31-07-2010
+Rondo~Hof van Baarle~65~~~01-10-2010~~
+Rondo~v.Gestel~61~~~01-10-2010~~
+Rondo~St. Beer~82~8~3,23~26-09-2009~~
+Rondo~De Achthoeven~78~8,2~~21-09-2009~~
+Rondo~St. Beer~71~8,3~3,44~27-09-2008~~
+Rondo~De Achthoeven~75~10,6~~19-09-2008~~
+Rondo~St. Beer~73~7,3~3,59~07-09-2007~~
+Rondo~St. Beer~70~10,8~3,3~21-09-2006~~
+Rondo~Heyd~72~~~25-09-2007~~
+Rondo~Heyd~80~10,2~~20-09-2008~~
+Rondo~Heyd~80~8,0~~26-09-2009~~
+Rondo~Heyd~70~8,0~~29-09-2010~~
+Rondo~Heyd~80~7,5~~06-10-2013~~
+Leon Milot~Pomona van Sinnich~70~9,86~3,16~04-10-2014~07-06-2014~
+Leon Milot~Domaine van Breugel~82~11,7~3,63~30-09-2014~~
+Leon Milot~Clos Sabina~83~~~23-09-2014~~
+Leon Milot~Pomona van Sinnich~61~13,8~3,09~06-10-2013~22-06-2013~29-08-2013
+Leon Milot~Domaine van Breugel~89~10,8~3,14~11-10-2013~20-06-2013~15-08-2013
+Leon Milot~De Heerlijkheid~73~~~15-10-2013~~
+Leon Milot~Pomona van Sinnich~61~10,8~~07-10-2012~~
+Leon Milot~Domaine van Breugel~92~7,6~3,42~03-10-2012~~
+Leon Milot~De Oorsprong~82~8,5~~06-10-2012~~
+Leon Milot~Domaine van Breugel~90~8,5~~18-09-2011~~
+Leon Milot~De Heerlijkheid~82~~~04-10-2011~~
+Leon Milot~Pomona van Sinnich~70~6~~25-09-2011~~
+Marechal Foch~De Achthoeven~75~8,4~~04-10-2014~30-05-2014~15-08-2014
+Marechal Foch~De Heerlijkheid~73~~~15-10-2013~~
+Marechal Foch~De Achthoeven~77~8,4~~26-10-2013~19-06-2013~22-08-2013
+Marechal Foch~De Achthoeven~83~~~26-10-2012~04-06-2012~16-08-2012
+Marechal Foch~De Heerlijkheid~82~~~30-09-2011~~
+Marechal Foch~De Achthoeven~86~6,6~3,17~26-09-2011~19-05-2011~25-07-2011
+Marechal Foch~De Achthoeven~80~9,6~3,17~16-10-2010~10-06-2010~
+Marechal Foch~De Achthoeven~87,5~8,9~~21-09-2009~~
+Marechal Foch~De Achthoeven~72~11~~22-09-2008~~
+Marechal Foch~Heyd~80~6~~13-09-2007~~
+Marechal Foch~Heyd~82~12~~20-09-2008~~
+Marechal Foch~Heyd~94~8,5~~19-09-2009~~
+Marechal Foch~Heyd~84~6,6~~27-09-2010~~
+Marechal Foch~Heyd~81~9~~06-10-2013~~
+Regent~Pomona van Sinnich~71~8,64~3,26~03-10-2014~20-06-2014~15-08-2014
+Regent~Hof van Eynde~73~7,3~3,76~04-10-2014~~
+Regent~Clos Sabina~75~~~17-09-2014~~
+Regent~Locht~78~7,5~3,41~03-10-2014~~
+Regent~Domaine van Breugel~80~5,7~3,83~30-09-2014~~
+Regent~Pomona van Sinnich~65~10,6~3,16~05-10-2013~06-07-2013~19-08-2013
+Regent~Domaine van Breugel~82~8,2~3,13~11-10-2013~29-06-2013~10-08-2013
+Regent~van Ramshorst~72~8~~18-10-2013~02-07-2013~18-08-2013
+Regent~Frank's Domein~66~9~3,01~24-10-2013~04-07-2013~10-08-2013
+Regent~De Vijfhoek~68~8~3,12~12-10-2013~22-06-2013~13-08-2013
+Regent~Hof van Eynde~66~5,7~3,35~13-10-2013~~
+Regent~Koningbosch~75~8~~08-10-2013~~
+Regent~Bilderhof~66~10~~17-10-2013~~
+Regent~Pomona van Sinnich~75~9,4~~06-10-2012~~
+Regent~Domaine van Breugel~88~8,4~3,31~03-10-2012~~
+Regent~St. Beer~76~8,3~3,4~08-10-2012~~
+Regent~Locht~74~8,6~3,36~02-10-2012~~
+Regent~Locht Pergola~83~7,4~3,43~02-10-2012~~
+Regent~De Oorsprong~75~8,5~~06-10-2012~~
+Regent~Pot de Vin~88~8~~11-10-2012~~
+Regent~St. Beer~75~8,3~3,26~19-09-2011~~
+Regent~Kleine Lei~65~8,5~3,38~19-09-2011~~
+Regent~Domaine van Breugel~76~6,1~~19-09-2011~~
+Regent~De Vijfhoek~70~6,8~3,61~26-09-2011~~
+Regent~Locht~76~8,3~~19-09-2011~~
+Regent~Pomona van Sinnich~76~6~~24-09-2011~~
+Regent~Burt van Ramshorst~72~8,6~3,3~26-09-2011~~
+Regent~Baron~71~~3,49~04-10-2010~~
+Regent~St. Beer~65~8,5~3,36~04-10-2010~~
+Regent~Wim~61~~3,37~27-09-2010~~
+Regent~De Vijfhoek~70~8~~04-10-2010~~
+Regent~Domaine van Breugel~73~~3,43~20-09-2010~~
+Regent~St. Beer~76~7,8~3,38~26-09-2009~~
+Regent~St. Beer~68~7,8~3,46~04-10-2008~~
+Regent~St. Beer~70~6,7~3,66~17-09-2007~~
+Regent~St. Beer~70~7,6~3,57~02-10-2006~~
+Cabernet Blanc~Kloetinge~75~11~~02-10-2011~~
+Cabernet Blanc~Kloetinge~66~14~~27-10-2012~~
+Cabernet Blanc~Kloetinge~60~10~~25-10-2013~~
+#Cabernet Blanc~Grimmeltshof~~~~~21-06-2014~
+#Cabernet Cantor~Grimmeltshof~~~~~21-06-2014~
+#Cabernet Cortis~Grimmeltshof~~~~~21-06-2014~
+Marechal Foch~de Zon~88~11,0~~24-09-2011~~
+Marechal Foch~de Zon~81~12,5~~22-09-2012~~
+Marechal Foch~de Zon~86~11,0~~19-10-2013~~
+Johanniter~de Zon~80~10,0~~03-10-2011~~
+Johanniter~de Zon~83~10,4~~13-10-2012~~
+Johanniter~de Zon~84~11,0~~26-10-2013~~
+Solaris~de Zon~100~7,0~~05-09-2011~~
+Solaris~de Zon~97~8,0~~15-09-2012~~
+Solaris~de Zon~90~9,0~~21-09-2013~~
+Solaris~de Zon~110~8,8~~19-09-2014~~

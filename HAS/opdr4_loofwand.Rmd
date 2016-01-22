@@ -1,0 +1,33 @@
+---
+title: "Loofwandbeheer"
+author: "BWB"
+date: "December 20, 2015"
+output: word_document
+---
+
+# Doel
+
+Onderzoek naar de vermindering van de groeikracht van druivenplanten door loofwandbeheer.
+
+# Achtergrond
+
+De praktijk van de wijnbouw in Nederland is in vergelijking met andere, traditionele wijnbouw landen relatief duur door een hoge grondprijs, kleinschalige opzet en hoge arbeidskosten. Aan de eeste factor is weinig te doen, de tweede is een keuze, maar de derde kan worden beinvloed door te proberen om het werk in de wijngaard te minimaliseren. 
+Eén van de keuzes die men kan maken is die van de wijze van loofwandbeheer.
+
+De loofwand van een rij druivenstokken moet luchtig zijn om problemen door schimmels (Echte en Valse meeldauw, Botrytis, en nog een aantal lastpakken) te voorkomen en de suikerproductie maximaliseren. Door een luchtige loofwand droogt een wijngaard na een regenbui sneller op en is de kans op schade aan blad of fruit kleiner.  
+Een luchtige loofwand wordt verkregen door mechanische bewerkingen, zoals (gedeeltelijk)) ontbladeren, dieven en toppen. Toppen en ontbladeren stimuleren beiden de groei van dieven, die de loofwand weer verdichten. Deze bewerkingen worden tijdens het groeizeizoen een aantal keren herhaald.
+
+Ontbladeren van de tros-zone is noodzakelijk om druiven aan zonlicht bloot te stellen, wat resulteert in een dikkere schil (beter bestand tegen schimmelziekten, meer aromastoffen) en lagere zuurwaarden. Wanneer niet wordt getopt, komen de buur-rijen in de schaduw te staan en neemt de rijping af.
+Een manier om toppen te voorkomen is door de topscheut horizontaal over de topdraad uit te buigen of terug naar beneden te leiden. De top van de loofwand wordt hierdoor dichter, maar de vorming van dieven wordt minder gestimuleerd.
+
+De vraag is of deze werkwijze voordelen biedt (bijv. minder arbeid) en geen nadelen heeft (bijv. schimmelrisico door verdichte top).
+
+# Opzet
+
+Dit onderzoek zou kunnen bestaan uit   
+
+  1. opzet van test-rijen (controle, horizontale uitbuiging, uitbuiging naar onderen, anders?),
+  2. groei in lengte en verdichting van de loofwand volgen/meten tijdens het groeiseizoen,
+  4. andere ideeen?
+
+Nb. omdat een belangrijk deel van het groeiseizoen (in ieder geval voor dit soort onderzoek) valt tot en met eind juli/het eerste deel van augustus, is dit onderzoek minder makkelijk af te ronden tijdens een schooljaar. Dus voor de echte enthousiastelingen!

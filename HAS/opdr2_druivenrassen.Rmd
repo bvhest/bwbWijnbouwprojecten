@@ -1,0 +1,29 @@
+---
+title: "Categorisatie van druivenrassen"
+author: "BWB"
+date: "December 20, 2015"
+output: word_document
+---
+
+# Doel
+
+Onderzoek naar de geschiktheid van de diverse druivenrassen voor de druiventeelt in Nederland.
+
+# Achtergrond
+
+De toename van de wijnbouw in Nederland steunt op de beschikbaarheid van druivenrassen die geschikt zijn voor het Nederlandse klimaat. Een toenemende beschikbaarheid van zogenaamde schimmel-tolerante rassen draagt hier sterk aan bij. De beschrijving van hun eigenschappen is momenteel uitsluitend gebaseerd op ervaringen met deze rassen in de landen waar deze rassen zijn ontwikkeld.    
+Een overzicht van schimmel-tolerante rassen kan worden gevonden op de [website van de Brabantse Wijnbouwers](http://www.brabantsewijnbouwers.nl/index.php?section=13&page=132&student=416).
+
+Dat men in Nederland nog zoekende is naar de meest optimale druivenrassen blijkt bijv. uit het feit dat bij de 450 leden van de Brabantse Wijnbouwers zo'n 100 verschillende rassen staan aangeplant.  
+Kijkt men naar een regio in één van de traditionele wijnbouwlanden, dan is dit meestal minder dan 15.
+
+Op basis van [plantkundige kenmerken](http://www.brabantsewijnbouwers.nl/index.php?section=13&category=&page=82), zoals moment van uitlopen, bloei, verkleuring (begin rijping) en oogstdata, en klimatologische gegevens, zoals de [som van de graaddagen](http://www.brabantsewijnbouwers.nl/index.php?section=13&page=57&student=1171) (een maat voor de warmte tijdens het groeiseizoen), kan men de druivenrassen indelen in vroeg-/laatuitlopende en vroeg-/laatrijpende rassen.  
+Op basis van deze categorisatie kan de wijnbouwer een betere keuze maken door de kans op schade door een late nachtvorst of de kans op een onrijpe oogst te minimaliseren.
+
+# Opzet
+
+Op basis van de groeigegevens van de verschillende druivenrassen die zijn aangeplant bij de leden van de Brabantse Wijnbouwers, waaronder datum van uitloop, bloei, verkleuring, oogst en oostgegevens zoals suikergehalte en zuurgraad, en klimaatdata van het KNMI kan men de verschillende druivenrassen categoriseren.
+
+Nb. Omdat de gegevens al beschikbaar zijn, vereist dit onderzoek geen veldwerk, maar wel enige rekenvaardigheid en een beetje statistische aanleg.
+
+Nb. Open-source programmatuur en scripts om de KNMI-gegevens te verwerken is via de BWB te verkrijgen.

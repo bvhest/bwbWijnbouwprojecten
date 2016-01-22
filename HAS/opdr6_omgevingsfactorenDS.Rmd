@@ -1,0 +1,26 @@
+---
+title: "Omgevingsfactoren Suzuki-fruitvlieg"
+author: "BWB"
+date: "December 27, 2015"
+output: word_document
+---
+
+# Doel
+
+Onderzoek naar omgevingsfactoren op de Suzuki-fruitvlieg populatie.
+
+# Achtergrond
+
+De Suzuki-fruitvlieg (Drosophila suzukii) heeft in 2014 voor het eerst in Nederland op grote schaal ernstige oogstschade toegebracht aan druiven en de zachtfruitsector in het algemeen. Sindsdien wordt intensief gezocht naar beheersing van de plaag. Maar zelfs de basisgegevens zijn maar deels bekend van dit vliegje. 
+
+Tijdens het afgelopen seizoen (2015), waarbij de Brabantse Wijnbouwers een uitgebreid monitoringsprogramma hebben opgezet, bleek uit de ingezonden wekelijkse observaties dat er grote verschillen waren in populaties uit hetzelfde gebied.
+N.b. deze observaties waren uitsluitend gebaseerd op tellingen van de mannelijke Suzuki-fruitvlieg, omdat deze door zijn vleugelstippen makkelijk is te herkennen.
+
+Welke omgevingsfactoren zijn van invloed op de (start)populatie van dit fruitvliegje? Wat zijn bijvoorbeeld de locaties waar het fruitvliegje overwinterd, wat zijn waardplanten, welke natuurlijke vijanden zijn er in de omgeving (sluipwespjes, ...), veranderd de verhouding mannelijke/vrouwelijke fruitvliegjes gedurende het seizoen.  
+Maar misschien zijn er ook andere factoren van invloed, zoals hygienemaatregelen in de wijngaard.  
+
+Kortom, wat kan het verschil in populaties verklaren tussen nabijgelegen wijngaarden.
+
+# Opzet
+
+Dit onderzoek zou kunnen bestaan uit een onderzoek naar de populaties in het vorige seizoen o.b.v. onze tellingen, onderzoek naar ligging en omgeving van de wijngaarden waar de tellingen zijn uitgevoerd en nieuwe, meer uitgebreide observaties vanaf het begin van het seizoen (met onderscheid tussen mannelijke/vrouwelijke vliegjes) en andere insecten.

@@ -1,0 +1,19 @@
+---
+title: "Relatie bladbemesting tot plantgezondheid/ziektegevoeligheid"
+author: "BWB"
+date: "December 27, 2015"
+output: word_document
+---
+
+# Doel
+
+Onderzoek naar het effect van toepassing van soorten bladbemesting, hoeveelheid (geen/goed/te veel) en tijdstip in relatie tot de plantgezondheid/ziektegevoeligheid.  
+
+# Achtergrond
+
+Voor een ontwikkelde loofwand kan bladbemesting tijdens de groei een nuttige aanvulling zijn bij gebleken voedingsdeficienties in de periode ervoor. Ook kan met bladbemesting omzeild worden dat sommige elementen elkaar qua opneembaarheid uit de bodem tegenwerken.  
+
+Maar als teveel bladmest wordt aangebracht, dan zal de plant het overschot niet direct opnemen en kan de bemesting ten goede komen aan organismen van de bladflora.  
+Werkt dit vervolgens gunstig uit doordat niet-pathogenen een extra ziektepreventie vormen, of juist omgekeerd?
+
+Looptijd van het onderzoek is idealiter van juni tot oktober (oogst).

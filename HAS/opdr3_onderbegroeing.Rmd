@@ -1,0 +1,38 @@
+---
+title: "Onderbegroeiing bij druivenrassen"
+author: "BWB"
+date: "December 20, 2015"
+output: word_document
+---
+
+# Doel
+
+Onderzoek naar de vermindering van de groeikracht van druivenplanten door optimalisatie van de onderbegroeiing.
+
+# Achtergrond
+
+De praktijk van de wijnbouw in Nederland is in vergelijking met andere, traditionele wijnbouw landen relatief duur door een hoge grondprijs, kleinschalige opzet en hoge arbeidskosten. Aan de eeste factor is weinig te doen, de tweede is een keuze, maar de derde kan worden beinvloed door te proberen om het werk in de wijngaard te minimaliseren. 
+Eén van de keuzes die men kan maken is die van de onderbegroeiing en begroeiing tussen de rijen.
+
+Deze moet aan een aantal (soms tegenstrijdige) eisen voldoen;  
+
+  * niet (te-veel) concureren met de druivenplant (bijv. tijdens de ontwikkeling van de vruchtaanzet),
+  * concureren op de juiste momenten (wanneer de groei van de druivenplant maximaal is),
+  * vocht in de bodem houden in tijden van droogte (opengeschoffelde paden tussen de rijen kunnen resulteren in droogtestress en stop in de ontwikkeling van de druiventros),
+  * voedingsstoffen in de bodem brengen,
+
+Door recente ontwikkelingen, zoals de komst van de Suzuki-fruitvlieg, zijn hier extra eisen bijgekomen;  
+
+  * relatieve vochtigheid van de lucht in de wijngaard laag houden,
+  * geen bescherming bieden aan de Suzuki-fruitvlieg (niet te hoog groeien).
+
+In Duitsland zijn diverse zaadmengsels ontwikkeld, zoals Rummel- en Wolfs-misschung. Het effect van het mengen van verschillende zaden gaat vaak al na één seizoen verloren door de dominantie van één of enkele soorten.
+
+# Opzet
+
+Dit onderzoek zou kunnen bestaan uit   
+
+  1. een literatuur overzicht om geschikte onderbegroeiing te selecteren.
+  2. aanplant van proefpercelen en metingen van de groeikracht van de druivenplant in het veld.
+  3. vergelijking van biologische (soortenkeuze) en mechanische (walsen) maatregelen,
+  4. andere ideeen?
