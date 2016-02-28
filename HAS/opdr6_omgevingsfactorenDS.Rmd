@@ -1,8 +1,8 @@
 ---
 title: "Omgevingsfactoren Suzuki-fruitvlieg"
 author: "BWB"
-date: "December 27, 2015"
-output: word_document
+date: "Februari 2016, 2016"
+output: pdf_document
 ---
 
 # Doel
@@ -24,3 +24,7 @@ Kortom, wat kan het verschil in populaties verklaren tussen nabijgelegen wijngaa
 # Opzet
 
 Dit onderzoek zou kunnen bestaan uit een onderzoek naar de populaties in het vorige seizoen o.b.v. onze tellingen, onderzoek naar ligging en omgeving van de wijngaarden waar de tellingen zijn uitgevoerd en nieuwe, meer uitgebreide observaties vanaf het begin van het seizoen (met onderscheid tussen mannelijke/vrouwelijke vliegjes) en andere insecten.
+
+Een eenvoudige maar effectieve val voor monitoring bestaat uit een 0.5L plastic waterfles waarin met een soldeerbout gaatjes worden gebrand van pm 2 à 3 mm doorsnede op ongeveer 2/3 van de bodem. De lokvloeistof bestaat uit een mengsel van 50% rode wijn en 50% huishoudazijn. Ongeveer 3 à 4cm hoogte in de fles is voldoende. Elke twee weken vervangen om een constante qualiteit te behouden.
+
+Zie BWB website, [pagina Japanse fruitvlieg](http://www.brabantsewijnbouwers.nl/index.php?section=13&page=94&student=1236) voor meer informatie.
