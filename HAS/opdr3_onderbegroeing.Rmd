@@ -2,7 +2,7 @@
 title: "Onderbegroeiing bij druivenrassen"
 author: "BWB"
 date: "December 20, 2015"
-output: word_document
+output: pdf_document
 ---
 
 # Doel

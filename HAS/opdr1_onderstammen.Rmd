@@ -1,0 +1,24 @@
+---
+title: "Onderstammen druiven"
+author: "BWB"
+date: "Februari 2016, 2016"
+output: pdf_document
+---
+
+# Doel
+
+Onderzoek naar de geschiktheid van de diverse onderstammen voor de druiventeelt in Nederland.
+
+# Achtergrond
+
+Druivenplanten zijn beschikbaar op diverse onderstammen die specifieke eigenschappen hebben, zoals de geschiktheid voor een bepaald bodemtype of een grote/kleine groeikracht. Een kort overzicht kan worden gevonden op de [website van de Brabantse Wijnbouwers](http://www.brabantsewijnbouwers.nl/index.php?section=13&page=132&student=415).
+
+Deze onderstammen zijn voornamelijk ontwikkeld in en voor de traditionele wijnbouwgebieden. Hun geschiktheid voor de Nederlandse bodem en het Nederlandse klimaat zijn nooit onderzocht.
+
+Wijnbouwers kiezen de onderstam voornamelijk op de geschiktheid voor een bodemtype. Mogelijke problemen die hierdoor kunnen optreden zijn een niet-passende groeikracht, waardoor bijv. de uitloop wordt vervroegd en de kans op vorstschade door een late nachtvorst (en verlies aan opbrengst) toeneemt.
+
+# Opzet
+
+Op basis van aanplantgegevens van de Brabantse Wijnbouwers zouden metingen in verschillende wijngaarden kunnen worden verricht waarbij wordt gezocht naar een verband tussen bodemtype, geschiktheid vd onderstam voor het bodemtype, de groeistadia van de druif, de kans op vorstschade en de hoeveelheid werk in de wijngaard als gevolg van de groeikracht.
+
+De metingen zouden kunnen worden verricht bij wijngaarden met nieuwe aanplant en volwassen stokken.

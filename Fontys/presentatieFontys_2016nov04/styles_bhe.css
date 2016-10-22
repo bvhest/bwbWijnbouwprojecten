@@ -1,0 +1,31 @@
+/* BvH css voor BWB-presentaties */
+body {
+  background-image: url("./assets/bwbLogo2.png");
+  background-position: center top;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 60% 60%; }
+.reveal h1 { font-size: 1.75em; }
+.reveal h2 { font-size: 1.30em; }
+.reveal h3 { font-size: 1.15em;	}
+.reveal h4 { font-size: 1.00em;	}
+.reveal p { font-size: 0.80em; 
+            text-align: left; }
+.reveal li { font-size: 0.80em; 
+             text-align: left; }
+.reveal section p ol ul {
+  text-align: left;
+}
+.reveal h3{
+   position: relative;
+   top: 0;
+   left: 0;}
+.reveal .slideContent h3{
+   left: 0;}
+.reveal .slides {
+        text-align: left;
+    }
+.reveal .slides section>* {
+        margin-left: 0;
+        margin-right: 0;
+    }
