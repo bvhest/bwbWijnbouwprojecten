@@ -22,7 +22,7 @@ Nb er zijn inmiddels verschillende benamingen voor de Suzuki-fruitvlieg (de in N
 # Bestaande modellen
 
 Er zijn momenteel enkele eenvoudige en meer compleze modellen beschikbaar voor de populatiegroei van de Suzuki fruitvlieg. Een voorbeeld van een eenvoudig model is [2] "[Predicting when Spotted Wing Drosophila begins activity using a Degree-day Model, Len Coop et al.](http://whatcom.wsu.edu/ag/documents/newsletters/v2i3_2013MarchWCENewsletter.pdf)". Een complexer model is bijv. [3] "[Integrating Temperature-Dependent Life Table Data into a Matrix Projection Model for Drosophila suzukii Population Estimation](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0106909)",  
-Beide modellen zijn gebaseerd op slechts één parameter; de temperatuur (gegeven in zogenaamde [graaddagen](http://www.brabantsewijnbouwers.nl/index.php?section=13&page=57&student=1171)). Het effect van de temperaruur is nog niet eens volledig geimplementeerd omdat de voortplanting en overleving boven bepaalde temperaturen weer sterk afnemen.
+Beide modellen zijn gebaseerd op slechts ??n parameter; de temperatuur (gegeven in zogenaamde [graaddagen](http://www.brabantsewijnbouwers.nl/index.php?section=13&page=57&student=1171)). Het effect van de temperaruur is nog niet eens volledig geimplementeerd omdat de voortplanting en overleving boven bepaalde temperaturen weer sterk afnemen.
 
 Een andere belangrijke parameter, de relatieve luchtvochtigheid, is voorzover mij bekend, nog niet meegenomen. Met name deze factor maakte het verschil tussen de jaren 2014 (grootschalige aantasting en verlies aan opbrengst in de zachtfruitsector) en 2015.  
 Nog een bekende parameter is de windkracht; bij te hoge windsnelheden (>8m/s) vliegt het fruitvliegje niet uit.
@@ -42,7 +42,7 @@ Wanneer deze criteria worden samengebracht in een "Suzuki-dag" (DDds = DDtemp\*D
 
 # Data
 
-Tijdreeksen van de Suzuki fruitvlieg op diverse locaties in Nederland en België in 2015 zijn beschikbaar  in CSV-formaat via de [website van de Brabantse Wijnbouwers](http://www.brabantsewijnbouwers.nl/starnet/media/downloads/Wijnbouw/BWB_DS_monitoring.csv). Deze gegevens (521 observaties in 2015) zullen in de loop van 2016 worden aangevuld.
+Tijdreeksen van de Suzuki fruitvlieg op diverse locaties in Nederland en Belgi? in 2015 zijn beschikbaar  in CSV-formaat via de [website van de Brabantse Wijnbouwers](http://www.brabantsewijnbouwers.nl/starnet/media/downloads/Wijnbouw/BWB_DS_monitoring.csv). Deze gegevens (521 observaties in 2015) zullen in de loop van 2016 worden aangevuld.
 
 Een voorbeeld van de Suzuki fruitvlieg monitoringsdata wordt gegeven in de volgende tabel.
 ```{r laadDeelnemers, echo=FALSE, warning=FALSE, error=TRUE}
@@ -87,6 +87,6 @@ Drosophilidae) in blueberry](http://onlinelibrary.wiley.com/doi/10.1111/jen.1224
 
 Theoretische beschrijving van populatie modellen:
 
-  1. [Syllabus André M. de Roos, Institute for Biodiversity and Ecosystem Dynamics Population Biology Section](https://staff.fnwi.uva.nl/a.m.deroos/downloads/pdf_readers/syllabus.pdf)
+  1. [Syllabus Andr? M. de Roos, Institute for Biodiversity and Ecosystem Dynamics Population Biology Section](https://staff.fnwi.uva.nl/a.m.deroos/downloads/pdf_readers/syllabus.pdf)
   2. [Syllabus Rob J. de Boer Theoretical Biology & Bioinformatics Utrecht University](http://www-binf.bio.uu.nl/rdb/books/mpd.pdf)
   3. [populatie model gebaseerd op de Leslie matrix (gebruikt om de verschillende levenscycli van bijv. insecten te modelleren)](https://github.com/noamross/Working-Code/blob/master/OldStuff/Les_analysis.R)

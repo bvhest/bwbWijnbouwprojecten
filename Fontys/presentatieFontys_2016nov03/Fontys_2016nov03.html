@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Bart van Hest (wijnbouw@brabantsewijnbouwers.nl)" />
+  <title>Applied Data Science  &amp; een Suzuki-fruitvlieg populatie model</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="Fontys_2016nov03_files/reveal.js-3.3.0/css/reveal.css"/>
+
+
+
+<link rel="stylesheet" href="Fontys_2016nov03_files/reveal.js-3.3.0/css/theme/simple.css" id="theme">
+
+
+  <!-- some tweaks to reveal css -->
+  <style type="text/css">
+    .reveal h1 { font-size: 2.0em; }
+    .reveal h2 { font-size: 1.5em;  }
+    .reveal h3 { font-size: 1.25em;	}
+    .reveal h4 { font-size: 1em;	}
+
+    .reveal .slides>section,
+    .reveal .slides>section>section {
+      padding: 0px 0px;
+    }
+
+
+
+    .reveal table {
+      border-width: 1px;
+      border-spacing: 2px;
+      border-style: dotted;
+      border-color: gray;
+      border-collapse: collapse;
+      font-size: 0.7em;
+    }
+
+    .reveal table th {
+      border-width: 1px;
+      padding-left: 10px;
+      padding-right: 25px;
+      font-weight: bold;
+      border-style: dotted;
+      border-color: gray;
+    }
+
+    .reveal table td {
+      border-width: 1px;
+      padding-left: 10px;
+      padding-right: 25px;
+      border-style: dotted;
+      border-color: gray;
+    }
+
+  </style>
+
+    <style type="text/css">code{white-space: pre;}</style>
+
+    <link rel="stylesheet" href="styles_bhe.css"/>
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'Fontys_2016nov03_files/reveal.js-3.3.0/css/print/pdf.css' : 'Fontys_2016nov03_files/reveal.js-3.3.0/css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+    <!--[if lt IE 9]>
+    <script src="Fontys_2016nov03_files/reveal.js-3.3.0/lib/js/html5shiv.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+    <h1 class="title">Applied Data Science <br/>&amp; een Suzuki-fruitvlieg populatie model</h1>
+    <h2 class="author">Bart van Hest (<a href="mailto:wijnbouw@brabantsewijnbouwers.nl">wijnbouw@brabantsewijnbouwers.nl</a>)</h2>
+    <h3 class="date">3 november 2016</h3>
+</section>
+
+<section><section id="achtergrond-van-de-opdracht" class="titleslide slide level1"><h1>Achtergrond van de Opdracht</h1></section><section id="de-hoofdrolspelers" class="slide level2">
+<h1>De hoofdrolspelers</h1>
+<table>
+<thead>
+<tr class="header">
+<th>Vrouwtje van de Suzuki-fruitvlieg</th>
+<th>Mannetje van de Suzuki-fruitvlieg</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><img src="assets/drosophila_suzukii0_f.jpg" alt="Vrouwtje van de Suzuki-fruitvlieg." /></td>
+<td><img src="assets/drosophila_suzukii0_m.jpg" alt="Mannetje van de Suzuki-fruitvlieg." /></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>nieuw plaaginsect voor de zacht-fruit sector,</li>
+<li>kan in korte tijd een groot deel van de oogst vernietigen.</li>
+</ul>
+</section><section id="het-probleem" class="slide level2">
+<h1>Het probleem?</h1>
+<p>Het vrouwtje boort gaaf fruit aan om eitjes te leggen.</p>
+<p>Aangetast fruit leidt tot micro-biologische aantasting (…rot).</p>
+<p>Fruit is daardoor onverkoopbaar/onverwerkbaar</p>
+<p><img src="assets/suzuki_legboor.gif" alt="Legboor Suzuki-fruitvlieg." /></p>
+</section><section id="het-probleem-gevisualiseerd" class="slide level2">
+<h1>Het probleem gevisualiseerd</h1>
+<p><img src="assets/SchadeWijnbouw.png" alt="Legboor Suzuki-fruitvlieg." /></p>
+</section><section id="video-drosophila-suzukii" class="slide level2">
+<h1>Video Drosophila suzukii</h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UsUyc4Jwzps" frameborder="0" allowfullscreen>
+</iframe>
+</section><section id="huidige-maatregelen" class="slide level2">
+<h1>Huidige maatregelen</h1>
+<p><em>Reactief</em> nav waarschuwingen obv monitoring:</p>
+<ul>
+<li>bescherming (netten)</li>
+<li>verdelging (niet discriminatief)</li>
+</ul>
+</section><section id="gewenste-maatregelen" class="slide level2">
+<h1>Gewenste maatregelen</h1>
+<p><em>Actief</em> obv <em>verwachtingen</em> tav <strong><em>de populatie-groei.</em></strong></p>
+<ul>
+<li>bescherming aanbrengen voordat schade onstaat,</li>
+<li>populatie-groei onder controle houden dmv tijdige maatregelen,</li>
+<li>‘if all else fails’: oogsten voordat de schade te groot wordt…</li>
+</ul>
+</section><section id="doel" class="slide level2">
+<h1>Doel</h1>
+<p><em>Een <strong>model</strong> om de <strong>populatie-groei</strong> van de Suzuki-fruitvlieg te <strong>voorspellen</strong></em></p>
+</section></section>
+<section><section id="wijnbouw-in-nederland" class="titleslide slide level1"><h1>Wijnbouw in Nederland</h1></section><section id="nieuwe-kansen-voor-wijnbouw" class="slide level2">
+<h1>Nieuwe kansen voor wijnbouw</h1>
+<p>Wijnbouw in Nederland is (opnieuw) mogelijk door de hogere temperaturen in onze regio.</p>
+<p>Kenmerken</p>
+<ul>
+<li>kleinschalig</li>
+<li>hoge kosten</li>
+<li>nieuwe rassen</li>
+<li>geen ervaring</li>
+<li>onbekend bij de consument</li>
+</ul>
+</section><section id="wijnbouw-in-cijfers" class="slide level2">
+<h1>Wijnbouw in cijfers</h1>
+<ul>
+<li>150 professionele wijngaarden</li>
+<li>260 hectare oppervlakte</li>
+<li>900.000 liter wijn (pm 1.3 miljoen flessen)</li>
+</ul>
+<p><em><a href="https://nl.wikipedia.org/wiki/Wijnbouw_in_Nederland">Wikipedia</a> cijfers 2007</em></p>
+<ul>
+<li>560 leden (voornamelijk hobby, minderheid professioneel)</li>
+<li>80 hectare oppervlakte</li>
+<li>322.000 liter wijn (pm 460.000 flessen)</li>
+</ul>
+<p><em><a href="http://www.brabantsewijnbouwers.nl">BWB</a> cijfers 2016</em></p>
+</section><section id="wijngaard-dassemus" class="slide level2">
+<h1>Wijngaard Dassemus</h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0GjhtUc-8L4" frameborder="0" allowfullscreen>
+</iframe>
+</section></section>
+<section><section id="suzuki-fruitvlieg" class="titleslide slide level1"><h1>Suzuki-fruitvlieg</h1></section><section id="feiten" class="slide level2">
+<h1>Feiten</h1>
+<ul>
+<li>Drosophila suzukii (officiele naam, vaak afgekort tot ‘DS’)
+<ul>
+<li>‘Spotted wing Drosophila’ (VS)</li>
+<li>‘Kirschessigfliege’ (DE, vaak afgekort tot ‘KEF’)</li>
+</ul></li>
+<li>Japanse/Noord-Oost Aziatische oorsprong</li>
+<li>recente wereldwijde opmars
+<ul>
+<li>sinds 2007/2008 in Italië en Spanje</li>
+<li>sinds 2010/11 in de VS</li>
+<li>sinds 2012 in Duitsland</li>
+<li>sinds 2014 in <strong>Nederland</strong></li>
+</ul></li>
+</ul>
+</section><section id="levenscyclus-d.-suzukii" class="slide level2">
+<h1>Levenscyclus D. suzukii</h1>
+<p><strong>levenscyclus</strong><br />
+afhankelijk van T° en RV, van ei tot volwassenheid:</p>
+<ul>
+<li>Snelste : 8 dagen<br />
+</li>
+<li>Gemiddeld: 20-30 dagen</li>
+</ul>
+<p><strong>Eileg per wijfje</strong><br />
+7-16 eieren/dag, 384 eieren max. in 3-9 weken<br />
+Eileg in de ochtend- en avonduren, vanaf ongeveer april/mei afhankelijk status van vruchten en T°.</p>
+<p><strong>Larve</strong><br />
+na 12-72 u uit ei (afh. van T°)<br />
+3 larvale stadia in fruit: 3-13 dagen</p>
+<p><strong>Pop</strong> in de vrucht of op het oppervlak ervan; 3-15 dagen<br />
+volwassen vliegen 3-15 dagen later</p>
+</section><section id="het-slechte-nieuws" class="slide level2">
+<h1>Het slechte nieuws</h1>
+<ul>
+<li>weinig natuurlijke vijanden,</li>
+<li>hoge reproductiesnelheid (300-350 eitjes per vrouwtje),</li>
+<li>snel opeenvolgende generaties (30 dagen),</li>
+<li>6 à 7 generaties per seizoen.</li>
+</ul>
+<div align="center">
+<p><img src="assets/populatieExplosie.png" width=600></p>
+</div>
+</section><section id="alleen-slecht-nieuws" class="slide level2">
+<h1>Alleen slecht nieuws?</h1>
+<p>Stagnatie van reproductiesnelheid</p>
+<ul>
+<li><span class="math inline">\(T_{gem} &lt; 10^o C\)</span></li>
+<li><span class="math inline">\(T_{gem} &gt; 35^o C\)</span></li>
+<li><span class="math inline">\(RV_{gem} &lt; 65 %\)</span></li>
+</ul>
+</section><section id="wijnbouwkundige-maatregelen" class="slide level2">
+<h1>Wijnbouwkundige maatregelen</h1>
+<ul>
+<li>loofwand open (zon &amp; wind)</li>
+<li>onderbegroeing kort (droog)</li>
+<li>druivenschil verharden (waterglas)</li>
+<li>waardplanten verwijderen (ondoenlijk…)</li>
+<li>spuitmiddel (max. 2x/jaar, duur, schadelijk voor bijen, resistentie…)</li>
+<li><strong>?</strong></li>
+</ul>
+</section></section>
+<section><section id="modellen" class="titleslide slide level1"><h1>Modellen</h1></section><section id="bestaande-modellen" class="slide level2">
+<h1>Bestaande modellen</h1>
+<p>Enkele eenvoudige en meer complexe modellen voor de populatiegroei</p>
+<ul>
+<li>“Predicting when Spotted Wing Drosophila begins activity using a Degree-day Model, Len Coop et al.”,</li>
+<li>“Integrating Temperature-Dependent Life Table Data into a Matrix Projection Model for Drosophila suzukii Population Estimation”.</li>
+</ul>
+<p>Gebaseerd op slechts één parameter; de temperatuur (in zogenaamde graaddagen).</p>
+<p>Bekende parameters zoals de relatieve luchtvochtigheid en de windkracht worden genegeerd.</p>
+</section><section id="waarschuwingen-obv-bwb-model" class="slide level2">
+<h1>Waarschuwingen obv BWB-‘model’</h1>
+<p>Graaddag (maat voor “positieve dag voor de ontwikkeling van de fruitvlieg”) uitbreiden met:</p>
+<ol type="1">
+<li>gemiddelde dag temperatuur
+<ul>
+<li>ongunstig als gemTemp &lt; 10 of &gt; 32,</li>
+<li>zeer gunstig als 20 <span class="math inline">\(&lt;=\)</span> gemTemp <span class="math inline">\(&lt;=\)</span> 23,</li>
+<li>anders gunstig,</li>
+</ul></li>
+<li>(gemiddelde) relatieve vochtigheid:
+<ul>
+<li>ongunstig als gemRelVocht &lt; 65%,</li>
+<li>anders gunstig</li>
+</ul></li>
+<li>(maximum) wind;
+<ul>
+<li>ongunstig als maxWind &gt; 8m/s (5 Beaufort),</li>
+<li>anders gunstig.</li>
+</ul></li>
+</ol>
+<p>‘Suzuki-graaddag’: <span class="math inline">\(DD_{ds} = a * F_{temp} + b * F_{relvocht} + c * F_{wind}\)</span></p>
+<p>Bedoeld om leden te waarschuwen om te starten met monitoring.</p>
+</section><section id="resultaten-bwb-model" class="slide level2">
+<h1>Resultaten BWB-‘model’</h1>
+<ul>
+<li>2014 vanaf vroeg in het seizoen gunstiger voor DS dan 2015.<br />
+</li>
+<li>2016 begon laat, eindigt dicht tegen 2014.<br />
+
+<div align="center">
+<p><img src="assets/DSdagen_2014_2015.png" width=600></p>
+</div></li>
+</ul>
+</section><section id="mogelijke-verbeteringen" class="slide level2">
+<h1>Mogelijke verbeteringen</h1>
+<ul>
+<li>model ‘ijken’ tegen observaties,</li>
+<li>uitbreiden aantal variabelen,</li>
+<li>model baseren op levenscyclus (groeistadia/sterfte),</li>
+<li>?</li>
+</ul>
+</section><section id="data" class="slide level2">
+<h1>Data</h1>
+<p>Monitoringsdata:</p>
+<ol type="1">
+<li>BWB monitoringsprogramma (csv-formaat: <a href="http://www.brabantsewijnbouwers.nl/starnet/media/downloads/Wijnbouw/BWB_DS_monitoring.csv">train 2015</a>, test 2016)</li>
+<li>Uni Freiburg <a href="http://www.vitimeteo.de/monitoring/fallenfaenge.shtml">monitoringsprogramma (web-‘scraping’)</a></li>
+</ol>
+<p>Klimaatdata:</p>
+<ul>
+<li><a href="http://www.knmi.nl/nederland-nu/klimatologie/daggegevens">KNMI daggegevens van het weer in Nederland</a></li>
+<li><a href="ftp://ftp-cdc.dwd.de/pub/CDC/Readme_intro_CDC_ftp.pdf">Deutscher Wetterdienst</a></li>
+</ul>
+</section><section id="monitoringsdataobservaties" class="slide level2">
+<h1>Monitoringsdata/observaties</h1>
+<table>
+<thead>
+<tr class="header">
+<th>Monitoringsdata BWB,</th>
+<th>Freiburg</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><img src="assets/BWBmonitoring.png" alt="Monitoringsdata BWB," /></td>
+<td><img src="assets/Freiburgmonitoring.png" alt="Freiburg." /></td>
+</tr>
+</tbody>
+</table>
+</section><section id="literatuur" class="slide level2">
+<h1>Literatuur</h1>
+<ol type="1">
+<li><a href="http://www.isaacslab.ent.msu.edu/Images/2015_Asplen%20et%20al_JPS%5B1%5D.pdf">Invasion biology of spotted wing Drosophila (Drosophila suzukii): a global perspective and future priorities</a></li>
+<li><a href="http://whatcom.wsu.edu/ag/documents/newsletters/v2i3_2013MarchWCENewsletter.pdf">Predicting when Spotted Wing Drosophila begins activity using a Degree-day Model, Len Coop et al.</a> pagina 2 en verder.</li>
+<li><a href="http://www.plosone.org/article/fetchObject.action?uri=info:doi/10.1371/journal.pone.0106909&amp;representation=PDF">Integrating Temperature-Dependent Life Table Data into a Matrix Projection Model for Drosophila suzukii Population Estimation</a></li>
+<li><a href="http://www.academia.edu/14623376/Drosophila_suzukii_population_estimation_and_development_of_a_real-time_risk_model">Drosophila suzukii population estimation and development of a real-time risk model</a></li>
+<li><a href="http://onlinelibrary.wiley.com/doi/10.1111/jen.12247/pdf">Humidity affects populations of Drosophila suzukii (Diptera: Drosophilidae) in blueberry</a></li>
+<li><a href="https://staff.fnwi.uva.nl/a.m.deroos/downloads/pdf_readers/syllabus.pdf">Syllabus André M. de Roos, Institute for Biodiversity and Ecosystem Dynamics Population Biology Section</a></li>
+<li><a href="http://www-binf.bio.uu.nl/rdb/books/mpd.pdf">Syllabus Rob J. de Boer Theoretical Biology &amp; Bioinformatics Utrecht University</a></li>
+<li><a href="https://github.com/noamross/Working-Code/blob/master/OldStuff/Les_analysis.R">populatie model gebaseerd op de Leslie matrix</a> (gebruikt om de verschillende levenscycli van bijv. insecten te modelleren)</li>
+</ol>
+</section><section id="vragen" class="slide level2">
+<h1>Vragen?</h1>
+<center>
+<img src="assets/QandA.png" height="300px" />
+</center>
+</section></section>
+    </div>
+  </div>
+
+  <script src="Fontys_2016nov03_files/reveal.js-3.3.0/lib/js/head.min.js"></script>
+  <script src="Fontys_2016nov03_files/reveal.js-3.3.0/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Display the page number of the current slide
+        slideNumber: true,
+        // Push each slide change to the browser history
+        history: true,
+        // Vertical centering of slides
+        center: false,
+        // Transition style
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        // Transition style for full page slide backgrounds
+        backgroundTransition: 'default', // none/fade/slide/convex/concave/zoom
+
+        // Optional reveal.js plugins
+        dependencies: [
+        ]
+      });
+    </script>
+  <!-- dynamically load mathjax for compatibility with self-contained -->
+  <script>
+    (function () {
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+      document.getElementsByTagName("head")[0].appendChild(script);
+    })();
+  </script>
+
+<script>
+  (function() {
+    if (window.jQuery) {
+      Reveal.addEventListener( 'slidechanged', function(event) {  
+        window.jQuery(event.previousSlide).trigger('hidden');
+        window.jQuery(event.currentSlide).trigger('shown');
+      });
+    }
+  })();
+</script>
+
+
+  </body>
+</html>

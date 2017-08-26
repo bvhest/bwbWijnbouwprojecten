@@ -1,5 +1,6 @@
 /* BvH css voor BWB-presentaties */
 body {
+  font-family: Ubuntu, "times new roman", times, roman, serif;
   background-image: url("./assets/bwbLogo2.png");
   background-position: center top;
   background-attachment: fixed;
